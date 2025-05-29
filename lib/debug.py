@@ -2,7 +2,7 @@
 
 from sqlalchemy import create_engine
 
-from sqlalchemy_sandbox import Student
+from lib.test import Student
 
 engine = create_engine('sqlite:///students.db')
 
